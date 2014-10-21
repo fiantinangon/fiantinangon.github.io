@@ -297,6 +297,11 @@ h3 {
   i {
     font-size: 200px;
     color:#EB4848;
+    transition: all 0.1s ease;
+  }
+
+  i:hover {
+    color:#F42B2B;
   }
 
   h2 {
