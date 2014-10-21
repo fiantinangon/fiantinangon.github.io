@@ -197,11 +197,13 @@ h3 {
 
 .doc-section .doc-box {
   max-width: 960px;
-  margin: 30px auto; }
+  margin: 30px auto;
+  text-align: center; }
 
 .doc-list {
   padding-bottom: 30px;
   margin: auto;
+  text-align: left;
   max-width: 100%; }
   .doc-list .image {
     max-width: 100px;
@@ -269,3 +271,7 @@ a.general-btn:hover {
   background: white;
   color: #26252B;
   border-color: #26252B; }
+
+.doc-box a.general-btn:hover {
+  border-color: white;
+  color: #EB4848; }
