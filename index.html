@@ -1,0 +1,84 @@
+---
+layout: home
+title : Alfian Tinangon
+---
+
+
+<div class="grid-100 top">
+  <div class="jumbotron" data-stellar-background-ratio="0.5">
+    <div class="avatar">
+      <span class="social-icon">
+        {% for social in site.data.personal %}<a href="{{ social.facebook }}"><i class="fa fa-facebook"></i></a>{% endfor %}
+      </span>
+      <div class="avatar-img">
+        <img src="{% for personal in site.data.personal %}{{ personal.avatar }}{% endfor %}" alt="">
+      </div>
+      <span class="social-icon">
+         {% for social in site.data.personal %}<a href="{{social.twitter}}"><i class="fa fa-twitter"></i></a>{% endfor %}
+      </span>
+    </div>
+    <div class="title">
+      <h3>{% for personal in site.data.personal %}{{ personal.title }}{% endfor %}</h3>
+      <p>{% for personal in site.data.personal %}{{ personal.description }}{% endfor %}</p>
+    </div>
+  </div>
+</div>
+<div class="grid-100 works ">
+  <div class="section-title">
+    <h3>LAST WORKS</h3>
+  </div>
+  <div class="grid-70 tablet-grid-90 works-list">
+  {% for work in site.data.works %}
+    <div class="grid-33 tablet-grid-33 work-item">
+      <div class="image">
+        <a href="{{ work.link }}"><img src="{{ work.image }}" alt=""></a>
+      </div>
+      <div class="works-title">
+        {{ work.title }}
+      </div>
+    </div>
+  {% endfor %}
+
+    
+  </div>
+
+  <a href="#" class="general-btn">View All Works</a>
+</div>
+
+<div class="grid-100 doc-section">
+  <div class="title">
+    <h3>Documentation</h3>
+  </div>
+  <div class="doc-box">
+
+    
+    {% for post in site.posts limit: 3 %}
+    <div class="doc-list clearfix">
+      <div class="image">
+        <img src="{{ post.image }}" alt="">
+      </div>
+      <div class="doc-list-content">
+        <div class="doc-title">
+          <a href="#">{{ post.title }}</a>
+        </div>
+        <div class="doc-mini-des">
+          {{ post.description }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+
+  </div>
+</div>
+
+<div class="grid-100 contact">
+  <div class="section-title">
+    <h3>CONTAC ME</h3>
+  </div>
+  <div class="contact-content">
+    <a href=""><i class="fa fa-envelope"></i></a>
+    <h2>hallo[at]alfiantinangon.me</h2>
+  </div>
+</div>
+
