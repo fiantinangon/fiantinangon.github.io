@@ -147,7 +147,8 @@ h3 {
   max-width: 960px;
   margin: auto; }
   .title p {
-    font-weight: 600; }
+    font-weight: 600;
+    line-height: 1.5; }
 
 .works {
   background: #26252B;
