@@ -1,0 +1,47 @@
+/*iPhone 5 in portrait & landscape*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 640px) { 
+
+  .avatar span.social-icon {
+    margin: auto;
+  }
+
+  .works-list .works-title {
+    margin-bottom: 60px;
+  }
+
+  .avatar {
+    padding-top: 50px;
+  }
+  
+}
+
+/*iPhone 5 in landscape*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+
+/* STYLES GO HERE */
+
+}
+
+/*iPhone 5 in portrait*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+/* STYLES GO HERE */ 
+
+}
+
+/*@media screen and (max-width: 400px) {
+  
+
+
+}*/
