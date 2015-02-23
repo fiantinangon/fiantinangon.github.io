@@ -25,13 +25,13 @@ title : Alfian Tinangon
 </div>
 <div class="grid-100 works ">
   <div class="section-title">
-    <h3>LAST WORKS</h3>
+    <h3>SKILL</h3>
   </div>
   <div class="grid-70 tablet-grid-90 works-list">
   {% for work in site.data.works %}
     <div class="grid-33 tablet-grid-33 work-item">
-      <div class="image">
-        <a href="{{ work.link }}"><img src="{{ work.image }}" alt=""></a>
+      <div class="icon">
+        <i class="fa {{ work.icon }}"></i>
       </div>
       <div class="works-title">
         {{ work.title }}
@@ -43,35 +43,6 @@ title : Alfian Tinangon
   </div>
 
   <a href="#" class="general-btn">View All Works</a>
-</div>
-
-<div class="grid-100 doc-section">
-  <div class="title">
-    <h3>Documentation</h3>
-  </div>
-  <div class="doc-box">
-
-    
-    {% for post in site.posts limit: 3 %}
-    <div class="doc-list clearfix">
-      <div class="image">
-        <img src="{{ post.image }}" alt="">
-      </div>
-      <div class="doc-list-content">
-        <div class="doc-title">
-          <a href="#">{{ post.title }}</a>
-        </div>
-        <div class="doc-mini-des">
-          {{ post.description }}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-
-     <a href="#" class="general-btn">All Documentation</a>
-
-
-  </div>
 </div>
 
 <div class="grid-100 contact">

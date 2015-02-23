@@ -108,7 +108,7 @@ body {
   span.social-icon {
 	    height: 50px;
 	    width: 50px;
-	    background: white;
+	    background: #4E3451;
 	    display: inline-block;
 	    border-radius: 50%;
 	    position: relative;
@@ -128,7 +128,7 @@ body {
 			bottom: 0;
 			font-size: 25px;
 			margin: auto;
-			color:#F44141;
+			color:#F3B856;
       -webkit-transition: all 0.2s ease ;
       -o-transition: all 0.2s ease ;
       transition: all 0.2s ease ;
@@ -151,7 +151,7 @@ body {
   width: 170px;
   height: 170px;
   margin: auto;
-  border: solid 10px rgba(249, 109, 109, 0.83);
+  border: solid 10px #4E3451;
   border-radius: 50%;
   overflow: hidden; 
   display: inline-block;
@@ -177,9 +177,14 @@ h3 {
 }
 
 .works {
-	background: #26252B;
+	h3 {
+    color: gainsboro;
+    font-weight: 100;
+  }
+  background: white;
 	text-align: center;
   padding: 70px 0;
+
 }
 
 .section-title h3 {
@@ -191,23 +196,32 @@ h3 {
   float: none;
   margin-bottom: 30px;
 
-  .image {
-    height: 216px;
-  }
-
-  .image img {
-    border: solid 8px white;
+  .icon {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-    -webkit-transition: all 0.2s ease ;
-    -o-transition: all 0.2s ease ;
-    transition: all 0.2s ease ;
+    position: relative;
+    border: solid 1px gainsboro;
+    margin:auto;
+    i {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      height: 50px;
+      width: 50px;
+      color: #64C1AC;
+      font-size: 45px;
+    }
   }
 
   .works-title {
     margin: 20px 0;
     font-weight: 300;
+    color:#4E3451;
+    font-weight: 600;
   }
 
   .image img:hover {
@@ -287,7 +301,7 @@ h3 {
 
 .contact {
   text-align: center;
-  background: #fff;
+  background: #4E3451;
   padding-bottom: 100px;
   h3 {
     color:#EB4848;

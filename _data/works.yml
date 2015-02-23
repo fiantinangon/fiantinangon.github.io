@@ -1,13 +1,13 @@
-- title: Works 1
-  image: /images/works.png
+- title: UI/UX Design
+  icon: fa-paint-brush
   link: http://www.url.com
 
-- title: Works 2
-  image: /images/works.png
+- title: Front-end Web Developer
+  icon: fa-code
   link: http://www.url.com
 
-- title: Works 3
-  image: /images/works.png
+- title: Front-end IOS/Android Developer
+  icon: fa-mobile
   link: http://www.url.com
 
 

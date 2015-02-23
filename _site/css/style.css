@@ -97,7 +97,7 @@ body {
   .avatar span.social-icon {
     height: 50px;
     width: 50px;
-    background: white;
+    background: #4E3451;
     display: inline-block;
     border-radius: 50%;
     position: relative;
@@ -116,7 +116,7 @@ body {
       bottom: 0;
       font-size: 25px;
       margin: auto;
-      color: #F44141;
+      color: #F3B856;
       -webkit-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
@@ -130,7 +130,7 @@ body {
   width: 170px;
   height: 170px;
   margin: auto;
-  border: solid 10px rgba(249, 109, 109, 0.83);
+  border: solid 10px #4E3451;
   border-radius: 50%;
   overflow: hidden;
   display: inline-block; }
@@ -151,9 +151,12 @@ h3 {
     line-height: 1.5; }
 
 .works {
-  background: #26252B;
+  background: white;
   text-align: center;
   padding: 70px 0; }
+  .works h3 {
+    color: gainsboro;
+    font-weight: 100; }
 
 .section-title h3 {
   margin-bottom: 50px; }
@@ -162,19 +165,29 @@ h3 {
   margin: auto;
   float: none;
   margin-bottom: 30px; }
-  .works-list .image {
-    height: 216px; }
-  .works-list .image img {
-    border: solid 8px white;
+  .works-list .icon {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    -webkit-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease; }
+    position: relative;
+    border: solid 1px gainsboro;
+    margin: auto; }
+    .works-list .icon i {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      height: 50px;
+      width: 50px;
+      color: #64C1AC;
+      font-size: 45px; }
   .works-list .works-title {
     margin: 20px 0;
-    font-weight: 300; }
+    font-weight: 300;
+    color: #4E3451;
+    font-weight: 600; }
   .works-list .image img:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -234,7 +247,7 @@ h3 {
 
 .contact {
   text-align: center;
-  background: #fff;
+  background: #4E3451;
   padding-bottom: 100px; }
   .contact h3 {
     color: #EB4848;
