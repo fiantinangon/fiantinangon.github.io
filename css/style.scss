@@ -63,7 +63,7 @@ blockquote, q {
   box-sizing: border-box; }
 
 body {
-  background: #EB4848;
+  background: #fff;
   color: white; 
 	font-family: "Open Sans";
 }
@@ -304,25 +304,25 @@ h3 {
   background: #4E3451;
   padding-bottom: 100px;
   h3 {
-    color:#EB4848;
+    color:#F3B856;
     margin-top: 50px;
     margin-bottom: 10px;
   }
 
   i {
     font-size: 200px;
-    color:#EB4848;
+    color:#F3B856;
     transition: all 0.1s ease;
   }
 
   i:hover {
-    color:#F42B2B;
+    color:#EB4848;
   }
 
   h2 {
     font-size: 18px;
     font-weight: 600;
-    color:#EB4848;
+    color:#fff;
     margin-bottom: 30px;
   }
 }
